@@ -1,0 +1,17 @@
+CREATE DATABASE Final_0907_23_8974;
+
+USE Final_0907_23_8974;
+
+CREATE TABLE Productos(
+Codigo varchar(50),
+Nombre text(50),
+Precio varchar(50),
+Existencia varchar(20)
+);
+
+INSERT INTO Productos (Codigo, Nombre, Precio, Existencia)
+	values ('2501','Cable UTP por metro','Q3.00','365'),
+		   ('2811','Conectores RJ45','Q2.00','100'),
+           ('1101','Tinta epson 664', 'Q90.00','20'),
+           ('1108','Tinta epson 544','Q95.00','40'),
+           ('1801','Libro de la Diaco','Q50.00','8');
